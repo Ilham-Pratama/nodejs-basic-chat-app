@@ -1,5 +1,9 @@
 module.exports = {
-  entry: "./src/index.tsx",
+  entry: {
+    main: "./src/pages/main.tsx",
+    signIn: "./src/pages/sign-in.tsx",
+    signUp: "./src/pages/sign-up.tsx"
+  },
   resolve: {
     extensions: [".ts", ".tsx", ".js", ".json"],
   },
